@@ -1,0 +1,720 @@
+/*Start Global*/
+
+body
+{
+    margin: 0; padding: 0;
+    background-color: #ccc;
+	font-family: myfont;
+}
+@font-face {
+  font-family: 'myfont';
+  src: url('../fonts/RobotoCondensed-Regular.ttf');
+}
+.containner
+{
+    background-color: #fff;
+    margin: 20px 25px 0 25px;
+}
+*
+{
+	font-family: myfont;
+	box-sizing: border-box;
+}
+.row{margin: 0;}
+/****** Style Star Rating Widget *****/
+
+.rating {
+
+    	font-size: 40px;
+  		border: none;
+  		float: left;
+}
+
+.rating > input { display: none; }
+.rating > label:before {
+  margin: 5px;
+  font-size: 1.25em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating > .half:before {
+  content: "\f089";
+  position: absolute;
+}
+
+.rating > label {
+  color: rgb(195, 123, 15);
+ float: right;
+}
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.rating > input:checked ~ label, /* show gold star when clicked */
+.rating:not(:checked) > label:hover, /* hover current star */
+.rating:not(:checked) > label:hover ~ label { color: #efcb0a;  } /* hover previous stars in list */
+
+.rating > input:checked + label:hover, /* hover current star when changing rating */
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+.rating > input:checked ~ label:hover ~ label { color: #f3d951;  }
+
+/*End Global*/
+/*Start Header*/
+header
+{
+
+    background-color: #fff;
+    margin: 0;
+}
+header .logo{
+	margin-left: -30px;
+}
+.logo .btn-default
+{
+    margin: 0; padding: 0;
+    border: none;
+    background-color: transparent;
+    border-color: none;
+    font-size: 22px;
+    color: #588dd1;
+}
+.logo .btn-default:active, .logo .btn-default.active, .logo .open > .dropdown-toggle.btn-default,
+.logo .btn-default:active:hover, .logo .btn-default.active:hover, .logo .open > .logo .dropdown-toggle.btn-default:hover, .logo .btn-default:active:focus, .logo .btn-default.active:focus, .logo .open > .logo .dropdown-toggle.btn-default:focus, .logo .btn-default:active.focus, .btn-default.active.focus, .open > .dropdown-toggle.btn-default.focus
+{
+    outline: none;
+    color: #588dd1;
+    border: none;
+    background-color: transparent;
+    border-color: none;
+}
+.logo .dropup, .logo .dropdown{float: left;}
+.logo .dropdown-menu {
+    position: absolute;
+    left: -170px; width: 195px;
+    font-size: 18px;
+    background-color: #eee;
+    background-clip: padding-box;
+    border: 1px solid #ffffff;
+}
+.logo .dropdownn{cursor: pointer;}
+.logo .dropdown-menu li a{color:#588dd1; }
+.logo .dropdown-menu li a:hover{
+	background-color: #588dd1;
+	color: #fff;
+}
+header .user
+{
+
+	 margin-left: 20%;
+    margin-top: 35px;
+    color:#588dd1;
+}
+.user img
+{
+        height: 70px;
+    width: 70px;
+    float: left;
+    margin-top: 15px;
+        margin-left: 45%;
+
+}
+.user .user-name
+{
+
+    margin: 37px 0 10px 15px ;
+    float: left;
+}
+.user i
+{
+    margin: 28px 0 0 10px;
+    float: left;
+}
+.navbar
+{
+    background-color: #588dd1;
+    margin-bottom: 0;
+}
+.navbar-nav > li
+{
+    padding: 3px 0;
+    margin: 0 5px;
+}
+.navbar-nav > li > a
+{
+
+    color: #fff;
+    font-size: 22px;
+}
+
+.navbar-nav > li.active,
+.navbar-nav > li:hover,
+.navbar-nav > li > a:hover
+{
+
+
+    background-color: #9fbae6;
+}
+.navbar-nav > li > a:focus
+{
+    display: none;
+}
+.form-controlll {
+    border-radius: 15px;
+    width: 204px;
+    height: 35px;
+    padding: 4px 30px;;
+    color: #000;
+}
+.form-controlll::-moz-placeholder {
+  color: #588dd1;
+	font-weight: bold;
+  opacity: 1;
+}
+.form-controlll:-ms-input-placeholder {
+  color: #588dd1;
+	font-weight: bold;
+}
+.form-controlll::-webkit-input-placeholder {
+  color: #588dd1;
+	font-weight: bold;
+}
+.glyphicon
+{
+	right: -27px;
+}
+/*End HEader*/
+/*Start Section1*/
+.sec1{border-bottom: 1px solid #444;}
+.sec1 iframe
+{
+	width: 104%; height: 560px;
+    margin-bottom: -7px;
+    margin-left: -15px;
+    }
+.sec1-cont
+{
+    margin-right: 10px;
+	overflow: hidden;
+}
+.sec1-cont .image
+{
+    border: 3px solid #588dd1;
+    float: left;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.sec1-cont h3
+{
+    margin-top: 25px;
+    margin-bottom: 0;
+    color: #588dd1;
+    font-size: 35px;
+}
+.sec1-cont span
+{
+    font-size: 16px;
+    color: #888;
+}
+.sec1-cont .date
+{
+
+    margin: 45px 0 10px 5px;
+    color: #888;
+}
+.sec1-cont .info
+{
+    margin: 10px 73px 0 0 ;
+    font-size: 18px;
+}
+.sec1 .social-media {margin: 22% 11%; display: block;}
+.sec1 .social-media .somed
+{
+	-webkit-transition-duration:.9s;
+    -moz-transition-duration:.9s;
+    -o-transition-duration:.9s;
+    transition-duration:.9s;
+	opacity: 1;
+}
+.sec1 .social-media .somed:hover{
+    opacity: .7;
+    -webkit-transform:scale(1.1,1.1)rotate(180deg);
+    -moz-transform:scale(1.1,1.1)rotate(180deg);
+    -o-transform:scale(1.1,1.1)rotate(180deg);
+    transform:scale(1.1,1.1)rotate(180deg);
+}
+/*End section1*/
+/*Start Section2*/
+.sec2
+{
+    padding-bottom: 30px;
+    border-bottom: 1px solid #444;
+}
+.sec2 .image1
+{
+    margin: 22px 0px 0px 75px;
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+	margin-left: 40%;
+}
+
+.sec2 .xxs{
+	position: relative;
+}
+.sec2 .xxs:before
+{
+	position: absolute;
+	bottom: 33px;
+    left: 26px;
+	z-index: 10000;
+	content: "";
+	display: block;
+	width: 0;
+	border-width: 0px 69px 48px 0px;
+    border-color: transparent #ddd;
+	border-style: solid;
+}
+.sec2 input
+{
+	outline:none;
+	border: none;
+	border-radius: 12px;
+    width: 80%;
+    height: 80px;
+    margin-top: 73px;
+	margin-left: 70px;
+    background-color: #ddd;
+    color: #333;
+    padding: 15px;
+    font-size: 35px;
+}
+.sec2 .comments
+{
+	position: relative;
+}
+.sec2 .comments .img-circle
+{
+	margin: 0 0 0 -13px;
+}
+.sec2 .comments h3
+{
+    color: #588dd1;
+}
+.sec2 .comments h3 span
+
+{
+    color: #aaa;
+    font-size: 18px;
+    margin-left: 20px;
+}
+.sec2 .comments p
+{
+    font-size: 18px;
+    font-weight: bold;
+}
+.sec2 .comments .replay
+{
+    font-size: 16px;
+    color: #aaa;
+}
+
+.sec2 .comments .editt
+{
+	margin-right: 22px;
+    font-size: 22px;
+    color: #999;
+}
+
+
+.sec2 .loadd
+{
+    cursor: pointer;
+     margin-left: 40%;
+    text-align: center;
+    font-size: 23px;
+    color: #aaa;
+}
+
+
+
+/*----- Menu -----*/
+
+ .comments .menu,
+.comments .menu1,
+.comments .menu2,
+.comments .menu3
+{
+	display: none
+}
+
+.comments .menu ul,
+.comments .menu1 ul,
+.comments .menu2 ul,
+.comments .menu3 ul
+{
+
+	display: inline-block;
+	overflow: hidden;
+}
+.comments .menu ul li,
+.comments .menu1 ul li,
+.comments .menu2 ul li,
+.comments .menu3 ul li
+{
+	list-style: none;
+	float: left;
+	margin: 10px ;
+	padding: 5px;
+}
+.comments .menu ul li a,
+.comments .menu1 ul li a,
+.comments .menu2 ul li a,
+.comments .menu3 ul li a
+{
+	text-decoration: none;
+	cursor: pointer;
+	font-size: 18px;
+}
+.toggle-nav,
+.toggle-nav1,
+.toggle-nav2,
+.toggle-nav3
+{
+		position: absolute;
+    	right: 24px;
+    	top: 52px;
+        display:inline-block;
+        background:#fff;
+        text-shadow:0px 1px 0px rgba(0,0,0,0.5);
+    }
+
+.comments .menu ul li a:hover
+{
+	text-decoration: none;
+	color: #383838;
+}
+
+
+
+
+/*div Loaded That will Be Hidden*/
+.loaded
+{
+    margin-bottom: 20px;
+    margin-top: -145px;
+    display: none;
+}
+.sec2 .loaded .comments
+{
+    margin-bottom: 8.5%;
+}
+.sec2 .loaded .comments h3
+{
+    color: #588dd1;
+}
+.sec2 .loaded .comments h3 span
+
+{
+    color: #588dd1;
+    font-size: 18px;
+    margin-left: 20px;
+}
+.sec2 .loaded .comments p
+{
+    font-size: 18px;
+    font-weight: bold;
+}
+.sec2 .loaded .comments .replay
+{
+    font-size: 16px;
+    color: #aaa;
+}
+
+/*End Section2*/
+/*Start Section3*/
+.sec3 .tut
+{
+    margin: 15px 0 100px 15px;
+   border-bottom: 1px solid #444;
+    border-right: 1px solid #444;
+}
+
+.sec3 .tutorial
+{
+    border-bottom: 1px solid #444;
+    margin-bottom: 15px;
+}
+.sec3 .tutorial .vid, .sec3 .tutorial .vid-info{margin-left: -13px;}
+.sec3 .tutorial h3
+{
+    color: #588dd1;
+}
+.sec3 .tutorial span
+{
+    display: block;
+    font-size: 23px;
+}
+.sec3 .tutorial .time-duration
+{
+    color: #588dd1;
+
+}
+.sec3 .tutorial .inst-name,
+ .sec3 .tutorial .views
+{
+    color: #aaa;
+}
+.sec3 .loaddd
+{
+
+    text-align: center;
+    font-size: 25px;
+    color: #588dd1;
+    margin-left: 45%;
+}
+.sec3 .loadded
+{
+    display: none;
+}
+
+.tut .tutorial:last-child
+{
+    border-bottom:none;
+}
+
+/*Start Assignments*/
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus
+{
+	border-radius: none;
+	border: none;
+	font-size: 22px;
+    color: #fff;
+    background-color: #8db8e2;
+}
+.nav > li > a:hover,
+.nav > li > a:focus
+{
+	border-radius: none;
+	border: none;
+	background-color: #8db8e2;
+}
+
+.nav-tabs
+{
+	    width: 127%;
+    margin-left: -16px;
+	background-color: #588dd1;
+}
+.nav-tabs > li{
+	margin-right: 5px;
+    margin-bottom:-2px !important;
+}
+.nav-tabs > li > a {
+	padding: 13px 35px;
+    color: #fff;
+    font-size: 22px;
+}
+.assiegnmnts
+{
+    margin-bottom: 25px;
+}
+.assi
+
+{
+    margin-left: 45px;
+    color: #aaa;
+}
+.success{color: #aaa}
+.sec3 input
+{
+    margin-top: 12px;
+}
+/*start styling Check box*/
+.sec3 .tab-content .tab-pane .regular-checkbox
+{
+	-webkit-appearance: none;
+	background-color: #fafafa;
+	border: 2px solid #383838;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+	padding: 9px;
+	border-radius: 3px;
+	display: inline-block;
+	position: relative;
+	margin-top: 15px;
+}
+.sec3 .tab-content .tab-pane .regular-checkbox:active,
+.sec3 .tab-content .tab-pane .regular-checkbox:checked:active {
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+
+.sec3 .tab-content .tab-pane .regular-checkbox:checked {
+	background-color: #e9ecee;
+	border: 1px solid #383838;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+	color: #4de828;
+}
+.sec3 .tab-content .tab-pane .regular-checkbox:checked:after {
+	content: '\2714';
+	font-size: 14px;
+	position: absolute;
+	top: 0px;
+	left: 3px;
+	color: #4de828;
+}
+.sec3 .tab-content .tab-pane .big-checkbox {
+	padding: 18px;
+}
+
+.sec3 .tab-content .tab-pane .big-checkbox:checked:after {
+	font-size: 28px;
+	left: 6px;
+}
+
+/*End Styling Check box*/
+.sec3 .lecs
+{
+	margin: 40px 25px;
+
+}
+.sec3 .lecs .connlec{
+	overflow: hidden;
+	margin: 10px 5px;;
+}
+.sec3 .lecs .imglecs{float: left;}
+.sec3 .lecs .lechead{
+	float: left;
+	font-size: 23px;
+    margin-top: 30px;
+}
+.sec3 .addpdf
+{
+	margin: 20px 0 20px 30%;
+}
+.sec3 .addpdf span
+{
+    position: relative;
+	float: left;
+    color: #588dd1;
+	font-size: 75px;
+	margin-right: 35px;
+
+}
+.sec3 .addpdf .addfile
+{
+	float: left;
+	overflow: hidden;
+	color: #588dd1;
+	font-size: 50px;
+}
+/*input file style*/
+.sec3 .addpdf .upload-file
+{
+         position: absolute;
+    margin-left: 32px;
+    margin-top: 13px;
+    opacity: 0;
+    z-index: 0;
+    width: 63px;
+    font-size: 33px;
+    display: block;
+
+}
+
+.exam
+{
+    margin-top: 179%;
+    margin-left: 30%;
+    font-size: 30px;
+    padding: 15px;
+    width: 50%;
+    background-color:#588dd1;
+
+}
+.exam a{color: #fff;}
+.sec3 .rating {margin-left: -30px; width: 100%;}
+.sec3 .head-rate {
+    color: #5fdc37;
+    font-weight: bold;
+	margin-top: 70px;
+	 margin-left: 6%;
+    margin-bottom: 0;
+    text-align: center;
+	width: 100%;
+}
+/*End Section3*/
+/*Start footer*/
+ footer
+{
+    width: 100%;
+    background-color: #242424;
+    color: #aaa;
+}
+footer .row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+footer .social-media{
+	    margin: 49px 0 36px -76px;
+}
+footer .social-media img{width: 55px;}
+footer .social-media .somed
+{
+	-webkit-transition-duration:.9s;
+    -moz-transition-duration:.9s;
+    -o-transition-duration:.9s;
+    transition-duration:.9s;
+	opacity: 1;
+}
+footer .social-media .somed:hover{
+    opacity: .7;
+    -webkit-transform:scale(1.1,1.1)rotate(180deg);
+    -moz-transform:scale(1.1,1.1)rotate(180deg);
+    -o-transform:scale(1.1,1.1)rotate(180deg);
+    transform:scale(1.1,1.1)rotate(180deg);
+}
+.part1
+{
+
+    border-bottom: 1px solid #333;
+}
+.part1 .logo
+{
+	margin-left: -68px;
+    margin-top: 20px;
+}
+.part2 .info p
+{
+    color: #888;
+    margin: 13px;
+    font-size: 15px;
+    line-height: 33px;
+}
+.part2 .policy
+{
+    color: #888;
+    margin: 120px 0 30px 50px;
+}
+.part2 .policy span
+{
+    margin: 20px;
+    font-size: 14px;
+}
+.part2 .policy span a
+{
+  text-decoration: none;
+  color: #888;
+}
+footer .copyright
+{
+       color: #888;
+    text-align: center;
+    font-size: 17px;
+    padding-bottom: 10px;
+    margin-bottom: -4px;
+}
+/*End Footer*/
+/****************************/

@@ -1,0 +1,127 @@
+.row-header{
+    margin:0px auto;
+    padding:0px auto;
+}
+
+.row-content {
+    margin:0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.row-footer{
+    background-color: #AfAfAf;
+    margin:0px auto;
+    padding: 20px 0px 20px 0px;
+}
+
+.jumbotron {
+    padding: 70px 30px 70px 30px;
+    margin: 0px auto ;
+    background: white ;
+    color: #588dd1;
+}
+
+address{
+    font-size: 80%;
+    margin: 0px;
+    color: #0f0f0f;
+}
+
+body{
+    align:center;
+    padding:50px 0px 0px 0px;
+    z-index:0;
+}
+
+.navbar-inverse{
+    background: #800080;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+    background:  #330033;
+}
+
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+    color: #fff;
+    background: #330033;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu> li> a,
+.navbar-inverse .navbar-nav .open .dropdown-menu {
+    background-color: #800080;
+    color: #eeeeee;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu> li>a:hover {
+    color:#000000
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background: #330033 ;
+}
+
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+.affix {
+    top:100px;
+}
+
+.carousel {
+    background:#800080;
+}
+.carousel .item {
+    height: 300px;
+}
+.item img {
+    position: fixed;
+    top: 0;
+    left: 2000;
+    min-height: 5px;
+    min-height: 5px;
+    max-height: 650px;
+    max-width: 660px;
+    size: 5px;
+}
+
+.modal {
+    position: fixed;
+    top: 150px;
+    right: 0px;
+    bottom: 0;
+    left: 0;
+    z-index: 10040;
+    overflow: auto;
+    overflow-y: auto;
+}
+
+.modal.fade .modal-dialog {
+    transform: scale(0);
+  opacity: 0;
+  -webkit-transition: all .25s linear;
+  -o-transition: all .25s linear;
+  transition: all .25s linear;
+}
+
+.modal.fade.in .modal-dialog {
+    opacity: 1;
+  transform: scale(1);
+}
+
+.form_hover {
+        padding: 0px;
+        position: relative;
+        overflow: hidden;
+        height: 250.px;
+    }

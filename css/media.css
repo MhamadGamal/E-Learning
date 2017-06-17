@@ -1,0 +1,385 @@
+/*media query*/
+/******************mobile & tablet****************************/
+@media (min-width: 200px) and (max-width: 650px) {
+	/*Homeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
+	.carousel .slider-header h1{font-size: 25px;}
+	.carousel .slider-header h5
+	{
+		margin: 20px 0;
+		line-height: 1.2;
+		font-size: 12px;
+	}
+	.carousel .slider-header button
+	{
+		width: 70px;
+		font-size: 11px;
+	}
+	/*Homeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
+	/*start Container*/
+	.containner{margin:0; padding:0;}
+	/*End Conntainer*/
+	  /*Header*/
+    .logo .logooo{width: 65%; margin-top: 20px;}
+
+	header .user {float: right;padding-right: 20px;margin-top: 0; margin-left: 0;}
+
+	.user img {margin-top: 0;margin-left: 0; height:50px; width :50px;}
+
+	.user .user-name{font-size: 20px; margin-top: 17px;}
+
+	.user i{margin-top: 12px; font-size: 37px;}
+
+	nav .container-fluid .navbar-toggle{color:#fff;}
+
+	.navbar-nav > li > a{font-size:18px ;}
+
+	.navbar-toggle .icon-bar {background-color: #fff;}
+
+	.navbar-nav > li{margin: 8px 5px;}
+
+	.navbar-form{float: right; margin-top: -25px;margin-bottom: -4px;}
+	/********************/
+    /*Start Section1*/
+	.sec1 iframe {margin-bottom: 19px; height: 347px; width: 107%; border-bottom: 1px solid #aaa;}
+
+	.sec1-cont h3{font-size: 26px ;  margin-top: 42px;}
+
+	.sec1-cont .info {margin: 10px 22px 0px 0px;}
+
+	.sec1-cont {margin-left: 13px;}
+
+	/*End Section1*/
+	/*Start Section2*/
+	.sec2 .image1 {margin: 30px 0px 0px 8px; width: 100px; height: 100px;}
+
+	.sec2 input{width: 74%; height: 67px; margin-top: 52px; margin-left: 80px; padding: 11px; font-size: 22px;}
+
+	.sec2 .xxs::before {bottom: 28px; left: 46px; border-width: 0px 58px 40px 0px;}
+
+	.sec2 .comments .img-circle {margin: 17px 0px 0px 35px; width: 64px; height: 65px;}
+
+	.sec2 .comments .ccomm{margin-left: 70px;}
+
+	.sec2 h3 > span {font-size: 14px; margin-left: 5px;}
+
+	.sec2 h3 {font-size: 20px;}
+
+	.sec2 .comments .editt {margin-right: -27px;}
+
+	.comments .menu ul{margin-left: -46px;}
+	/*End Section2*/
+	/*Strat Section 3*/
+	.sec3 .tut{width: 94%; border-right: none; margin: 15px 0 0px 15px; padding-bottom: 38px;}
+
+	.sec3 .addpdf span{margin-right: 0; margin-left: -75px; font-size: 63px;}
+
+	.sec3 .addpdf .addfile{margin-left: 42px; font-size: 42px}
+	.nav-tabs{width:100%; margin-left: 0;}
+	.nav-tabs > li {margin-right: -13px;}
+
+	.nav-tabs > li > a {margin:0 25px 0 0;}
+
+	.assi {margin-left: 21px;}
+
+	.sec3 .tab-content .tab-pane .big-checkbox{margin-left: -33px;}
+
+	.sec3 .head-rate{margin-left: 0%; width: 100%;}
+	.sec3 .rating{margin-left: -65px;width: 100%;}
+
+	.exam {margin-top: 170%;margin-left: 25%; padding: 8px;}
+	.sec3 .addpdf .upload-file{margin-left: -51px; margin-top: 6px;}
+	/*End Section3*/
+	/*footer*/
+	.part1 .logo {margin-left: -100px;}
+	footer .logo img{width: 60%}
+	footer .social-media {margin: -45px 0px 22px 225px;width: 100%;}
+	.part2 .info p{margin: 6px;}
+	.part2 .policy {margin: 20px 0px 20px 35px;}
+	footer .social-media img{width: 45px;}
+}
+/****************************small screen************************************/
+@media (min-width: 651px) and (max-width:767px){
+
+	/*Homeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
+	.carousel .slider-header h1{font-size: 35px;}
+	.carousel .slider-header h5
+	{
+		margin: 20px 0;
+		font-size: 15px;
+	}
+	.carousel .slider-header button
+	{
+		width: 100px;
+		font-size: 16px;
+	}
+	/*Homeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
+	 /*Header*/
+    .logo .logooo{width: 65%; margin-top: 20px;}
+
+	header .user {float: right;padding-right: 20px;margin-top: 0;}
+
+	.user img {margin-top: 0;margin-left: 0;}
+
+	nav .container-fluid .navbar-toggle{color:#fff;}
+
+	.navbar-toggle .icon-bar {background-color: #fff;}
+	.navbar-nav > li{margin: 8px 5px;}
+	.navbar-form{float: right; margin-top: -25px;margin-bottom: -4px;}
+	/********************/
+    /*Start Section1*/
+	.sec1 iframe {margin-bottom: 19px; height: 347px; border-bottom: 1px solid #aaa;}
+	.sec1-cont .info {margin: 10px 22px 0px 0px;}
+	.sec1-cont {margin-left: 13px;}
+	/*End Section1*/
+	/*Start Section2*/
+	.sec2 .image1 {margin: 30px 0px 0px 8px; border-radius: 50%; width: 100px; height: 100px;}
+
+	.sec2 input { width: 74%; height: 67px; margin-top: 52px; margin-left: 80px; padding: 11px; font-size: 22px;}
+
+	.sec2 .xxs::before {bottom: 28px; left: 46px; border-width: 0px 58px 40px 0px;}
+
+	.sec2 .comments .img-circle {margin: 17px 0px 0px 35px; width: 64px; height: 65px;}
+
+	.sec2 .comments .ccomm{margin-left: 70px;}
+
+	.sec2 h3 > span {font-size: 14px; margin-left: 5px;}
+
+	.sec2 h3 {color: #588DD1; font-size: 20px;}
+
+	.sec2 .comments .editt {margin-right: -27px;}
+
+	.comments .menu ul, .comments .menu1 ul, .comments .menu2 ul, .comments .menu3 ul {margin-left: -46px;}
+	/*End Section2*/
+	/*Strat Section 3*/
+	.sec3 .tut{width: 94%; border-right: none;margin: 15px 0 0px 15px; padding-bottom: 38px;}
+
+	.sec3 .addpdf span{margin-right: 0;	margin-left: -75px; font-size: 63px;}
+
+	.sec3 .addpdf .addfile{margin-left: 42px; font-size: 42px}
+
+	.nav-tabs > li {margin-right: -13px;}
+
+	.nav-tabs > li > a {padding: 13px 35px;margin: 0 9px;}
+
+	.assi {margin-left: 21px;}
+
+	.sec3 .tab-content .tab-pane .big-checkbox{margin-left: -73px;}
+
+	.sec3 .head-rate{margin-left: 10%; width: 100%;}
+
+	.exam {margin-top: 130%;margin-left: 23%;}
+
+	.sec3 .rating {margin: 0 0 15px -15%;width: 100%;}
+	/*End Section3*/
+	/*footer*/
+	.part1 .logo {margin-left: -115px;}
+
+	footer .logo img{width: 60%}
+
+	footer .social-media {margin: -51px 0px 17px 330px;width: 100%;}
+
+	.part2 .info p{margin: 6px;}
+
+	.part2 .policy {margin: 24px 0px 26px 115px;}
+
+	footer .social-media img{width: 45px;}
+}
+/*******************medium screen******************************/
+@media (min-width: 768px) and (max-width:814px){
+
+    /*Header*/
+    .logo .logooo{width: 55%;}
+
+	header .user { margin-left: 29%;  margin-top: -88px; padding-bottom: 8px;}
+
+	.container > .navbar-header, .container-fluid > .navbar-header,.container > .navbar-collapse,.container-fluid > .navbar-collapse{margin-left: -35px}
+
+	.navbar-nav > li > a {font-size: 15px;}
+
+	.form-controlll{height: 30px; width: 175px;}
+
+	.navbar-right {margin-right: -35px;margin-top: 12px;}
+
+	.sec1-cont {margin-left: 12px;}
+
+	.sec1 iframe{width: 100%; height: 561px;}
+    /*End Section1*/
+
+	/*Start Section2*/
+	.sec2 .image1 { margin: 30px 0px 0px 30px; border-radius: 50%; width: 100px; height: 100px;}
+
+	.sec2 input { width: 80%; height: 67px; margin-top: 52px; margin-left: 80px; padding: 11px; font-size: 22px;}
+
+	.sec2 .xxs::before { bottom: 28px; left: 46px; border-width: 0px 58px 40px 0px;}
+
+	.sec2 .comments .img-circle { margin: 13px 0px 0px 45px; width: 64px; height: 65px;}
+
+	.sec2 .comments .ccomm {margin-left: 85px;}
+	.sec2 h3 > span { font-size: 14px; margin-left: 5px;}
+
+	.toggle-nav, .toggle-nav1, .toggle-nav2, .toggle-nav3 { position: absolute; right: -30px; top: 41px;}
+
+	.sec2 h3 { color: #588DD1; font-size: 20px;}
+
+	.sec2 .comments .editt {margin-right: -27px;}
+
+	.comments .menu ul {margin-left: -46px;}
+	/*End Section2*/
+	/*Strat Section 3*/
+	.sec3 .tut{width: 94%; border-right: none;margin: 15px 0 0px 15px; padding-bottom: 38px;}
+
+	.sec3 .addpdf span{margin-right: 0;	margin-left: -75px;	font-size: 63px;}
+
+	.sec3 .addpdf .addfile{margin-left: 42px; font-size: 42px}
+
+	.nav-tabs > li {margin-right: -13px;}
+
+	.nav-tabs > li > a {padding: 13px 35px;margin: 0 9px;}
+
+	.assi {margin-left: 21px;}
+
+	.sec3 .tab-content .tab-pane .big-checkbox{margin-left: -73px;}
+
+	.sec3 .head-rate{margin-left: 10%; width: 100%;}
+
+	.exam {margin-top: 130%;margin-left: 23%;}
+
+	.sec3 .rating {margin: 0 0 15px -15%;width: 100%;}
+	/*End Section3*/
+	/*footer*/
+	.part1 .logo {margin-left: -115px;}
+
+	footer .logo img{width: 60%}
+
+	footer .social-media {margin: -51px 0px 17px 330px;width: 100%;}
+
+	.part2 .info p{margin: 6px;}
+
+	.part2 .policy {margin: 24px 0px 26px 115px;}
+
+	footer .social-media img{width: 45px;}
+}
+/******************************************/
+@media (min-width: 815px) and (max-width:991px){
+
+    /*Header*/
+    .logo .logooo{width: 45%;}
+    header .user {margin-left: 35%; margin-top: -88px; padding-bottom: 8px;}
+
+	.container > .navbar-header, 	.container-fluid > .navbar-header, 	.container > .navbar-collapse,	.container-fluid > .navbar-collapse{margin-left: -35px}
+
+	.navbar-nav > li > a {font-size: 16px;}
+
+	.navbar-right {margin-right: -35px;margin-top: 8px;}
+
+	.sec1-cont {margin-left: 12px;}
+
+	.sec1 iframe{width: 100%; height: 561px;}
+	/*End Section1*/
+	/*Start Section2*/
+	.sec2 .image1 { margin: 30px 0px 0px 30px; border-radius: 50%; width: 100px; height: 100px;}
+
+	.sec2 input { width: 80%;  height: 67px;  margin-top: 52px; margin-left: 80px;  padding: 11px; font-size: 22px;}
+
+	.sec2 .xxs::before { bottom: 28px; left: 46px; border-width: 0px 58px 40px 0px;}
+
+	.sec2 .comments .img-circle { margin: 13px 0px 0px -35px; width: 64px;  height: 65px;}
+
+	.sec2 .comments .ccomm {margin-left: 85px;}
+
+	.sec2 h3 > span { font-size: 14px; margin-left: 5px;}
+
+	.toggle-nav { position: absolute; right: -30px;top: 41px;}
+
+	.sec2 h3 { color: #588DD1; font-size: 20px;}
+
+	.sec2 .comments .editt {margin-right: -27px;}
+
+	.comments .menu ul { margin-left: -46px;}
+	/*End Section2*/
+	/*Strat Section 3*/
+	.sec3 .tut{width: 94%; border-right: none;margin: 15px 0 0px 15px; padding-bottom: 38px;}
+
+	.sec3 .addpdf span{margin-right: 0;	margin-left: -75px; font-size: 63px;}
+
+	.sec3 .addpdf .addfile{margin-left: 42px; font-size: 42px}
+
+	.nav-tabs {width: 100%; margin-left: -1px; margin-top: -1px;}
+
+	.nav-tabs > li {margin-right: -13px;}
+
+	.nav-tabs > li > a {padding: 13px 35px;margin: 0 9px;}
+
+	.assi {margin-left: 21px;}
+
+	.sec3 .tab-content .tab-pane .big-checkbox{margin-left: -73px;}
+
+	.sec3 .rating {margin-left: -20px;width: 82%;}
+
+	.sec3 .head-rate {margin-left: -3%; width: 100%;}
+
+	.exam {margin-top: 110%;margin-left: 23%;}
+	/*End Section3*/
+	/*footer*/
+	.part1 .logo {margin-left: -115px;}
+	footer .logo img{width: 60%}
+	footer .social-media {margin: -51px 0px 17px 530px;width: 70%;}
+	.part2 .info p{margin: 6px;}
+	.part2 .policy {margin: 24px 0px 26px 175px;}
+	footer .social-media img{width: 45px;}
+	.part2 .policy { margin: 120px 0px 30px -21px;}
+
+}
+/*******************large screen*****************************************/
+@media (min-width: 992px) and (max-width: 1114px){
+
+
+     /*Header*/
+    .logo .logooo{width: 130%;}
+    header .user { margin-left: -13%;  margin-top: -1px; padding-bottom: 8px;}
+
+	.sec1-cont .info {margin: 10px 20px 0px 0px;}
+
+	.sec1 iframe{width: 100%; height: 560px;}
+
+	.sec1-cont .info {margin: 10px 30px 0 0;}
+
+	.sec2 .image1 { margin: 22px 0px 0px 20%;  border-radius: 50%;  width: 120px; height: 120px;}
+
+	.sec2 input { width: 80%;  height: 67px;  margin-top: 52px;  margin-left: 47px; padding: 11px; font-size: 22px;}
+
+	.sec2 .xxs::before {bottom: 19px;left: 0px;}
+
+	.sec2 .comments .img-circle {margin:1px 0px 0px -27px; width: 84px;height: 85px;}
+
+	.toggle-nav, .toggle-nav1, .toggle-nav2, .toggle-nav3 {right: 36px;	}
+
+	.nav-tabs > li > a { padding: 13px 11px;}
+
+	.nav-tabs > li {margin-bottom: -5px;}
+
+	.nav-tabs {width: 128%;margin-left: -16px;}
+	 .success{margin-left: 18px; font-size: 27px;}
+	.assi{margin-left: 0px; font-size: 27px;}
+	.exam {margin-top: 292%;}
+	.sec3 .rating {width: 104%;}
+	/***************/
+	footer .social-media {margin: 60px 0px 17px -20px;width: 107%;}
+	.part2 .info p{margin: 6px;}
+	footer .social-media img{width: 45px;}
+}
+/*********************************************/
+@media (min-width: 1700px){
+
+
+	.sec2 .image1
+	{
+    margin: 22px 0px 0px 75px;
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+	margin-left: 40%;
+	}
+
+	.sec3 .rating {margin-left: -8%;}
+}
